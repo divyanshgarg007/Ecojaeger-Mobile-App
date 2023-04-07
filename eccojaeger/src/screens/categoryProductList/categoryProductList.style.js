@@ -1,0 +1,211 @@
+/* eslint-disable prettier/prettier */
+import { StyleSheet } from 'react-native';
+import GlobalStyle from '../../style/globalstyle';
+
+
+export const styles = StyleSheet.create({
+  homeContainer: {
+    backgroundColor: '#fff',
+    flex: 1,
+  },
+  cardBox: {
+    marginTop: 5,
+    paddingHorizontal: 15,
+  },
+  productBox: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    width: '100%',
+    position: 'relative',
+    borderBottomWidth: 1,
+    borderBottomColor: '#D9DBE9',
+    paddingBottom: 7,
+  },
+  productBadge: {
+    position: 'absolute',
+    top: 20,
+    left: 6.5,
+    zIndex: 1111,
+  },
+  badgeName: {
+    backgroundColor: '#009640',
+    color: '#fff',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    paddingHorizontal: 10,
+    fontSize: 12,
+    borderRadius: 3,
+  },
+  productImageBox: {
+    width: '18%',
+    marginRight: 10,
+    marginBottom: 7,
+    position: 'relative',
+  },
+  addPro: {
+    backgroundColor: '#780000',
+    color: '#fff',
+    fontSize: 12,
+    fontFamily: GlobalStyle.fontSet.Poppins600,
+    paddingHorizontal: 6,
+    paddingVertical: 3,
+    width: 20,
+    height: 20,
+    textAlign: 'center',
+    borderRadius: 50,
+  },
+  upPro: {
+    position: 'absolute',
+    left: 1,
+    top: 2,
+    zIndex: 11111,
+  },
+  downPro: {
+    position: 'absolute',
+    left: 1,
+    bottom: 32,
+    zIndex: 11111,
+  },
+  productImage: {
+    width: 50,
+    height: 50,
+    marginBottom: 10,
+  },
+  productInfoBox: {
+    width: '71%',
+  },
+  productQuantity: {
+    paddingLeft: 6,
+  },
+  proCategory: {
+    color: '#333',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    fontSize: 14,
+  },
+  proName: {
+    color: '#222222',
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+    fontSize: 15,
+  },
+  innerBoxs: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: '99%',
+    justifyContent: 'flex-end',
+  },
+  unitInput: {
+    width: 100,
+    marginRight: 10,
+  },
+  inputFieldsBox: {
+    marginRight: 9,
+    //marginTop: Platform.OS === 'ios' ? 5 : 0,
+  },
+  price: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 7,
+  },
+  actualPrice: {
+    color: '#222222',
+    fontSize: 14,
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    marginRight: 10,
+  },
+  perPrice: {
+    color: '#fff',
+    fontSize: 11,
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    backgroundColor: '#009640',
+    textAlign: 'center',
+    paddingVertical: 3,
+    paddingHorizontal: 4,
+    borderRadius: 2,
+  },
+  originalPrice: {
+    color: '#888',
+    fontSize: 13,
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+    textDecorationLine: 'line-through',
+  },
+  iconSmall: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    marginTop: 8,
+    marginBottom: 10,
+  },
+  actionIcons: { marginRight: 25 },
+  navigatorText: {
+    color: '#009640',
+    fontSize: 20,
+    paddingTop: 6,
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+  },
+  subCategoryContainer: {
+    backgroundColor: '#eee',
+  },
+  buttonContainer: {
+    backgroundColor: 'transparent',
+    borderWidth: 0,
+    // width: screenWidth,
+    paddingHorizontal: 10,
+    marginTop: 15,
+    marginBottom: 8,
+  },
+  innerBtn: {
+    width: 0,
+  },
+  categoriesBtn: {
+    borderWidth: 1,
+    borderColor: '#009640',
+    borderRadius: 4,
+    // width: 120,
+  },
+  containerButton: {
+    marginRight: 15,
+    backgroundColor: '#fff',
+    elevation: 3,
+    borderRadius: 4,
+    height: 33,
+  },
+  btnText: {
+    color: '#000',
+    fontSize: 13,
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    paddingHorizontal: 14,
+    textAlign: 'center',
+  },
+  selectedBtn: {
+    backgroundColor: '#009640',
+  },
+  indicator: { padding: 20 },
+  iconSize: { width: 32, height: 32, marginLeft: 0 },
+  listName: {
+    color: '#000',
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+    fontSize: 18,
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  listItems: {
+    color: '#000',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    paddingTop: 7,
+    paddingBottom: 7,
+    fontSize: 16,
+    borderBottomColor: '#eee',
+    borderBottomWidth: 1,
+  },
+  closeToggle: {
+    position: 'absolute',
+    right: 15,
+    zIndex: 111,
+    top: 23,
+  },
+  addToggle: {
+    position: 'absolute',
+    left: 15,
+    zIndex: 111,
+    top: 23,
+  },
+});

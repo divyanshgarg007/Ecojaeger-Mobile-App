@@ -1,0 +1,138 @@
+/* eslint-disable prettier/prettier */
+import { Platform, StyleSheet } from 'react-native';
+import GlobalStyle from '../../style/globalstyle';
+
+export const styles = StyleSheet.create({
+  orderContainer: {
+    // backgroundColor: '#fff',
+    flex: 1,
+  },
+  navigatorText: {
+    color: '#E04D01',
+    fontSize: Platform.OS === 'ios' ? 22 : (20),
+    paddingTop: Platform.OS === 'ios' ? 0 : (6),
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+  },
+  cardContainer: {
+    padding: 0,
+    borderRadius: (5),
+    borderColor: '#E04D01',
+    marginTop: (20),
+    marginBottom: (5),
+  },
+  historyBox: {
+    paddingHorizontal: (15),
+    paddingVertical: (15),
+  },
+  historyTitle: {
+    fontSize: (18),
+    color: '#E04D01',
+    fontFamily: GlobalStyle.fontSet.Poppins600,
+  },
+  historySubTitle: {
+    fontSize: (14),
+    color: '#222222',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    paddingTop: (4),
+  },
+  prodOrder: {
+    fontSize: (16),
+    color: '#222222',
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+    paddingTop: (6),
+    paddingBottom: (6),
+  },
+  historyItemBox: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    flex: 1,
+    paddingBottom: (10),
+  },
+  productItem: {
+    fontSize: (15),
+    color: '#222222',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+  },
+  historyTotal: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderTopWidth: 1,
+    borderTopColor: '#E04D0133',
+    paddingTop: (10),
+    paddingBottom: (10),
+  },
+  totalHistory: {
+    fontSize: (15),
+    color: '#222222',
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+  },
+  orderActions: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: (10),
+    alignItems: 'center',
+    width: '100%',
+    flex: 1,
+  },
+  printBtn: {
+    marginTop: (7),
+  },
+  spaceBtns: {
+    flex: 0,
+    flexBasis: '45%',
+  },
+  btnGreen: {
+    backgroundColor: '#E04D0199',
+    width: '100%',
+    height: (42),
+    justifyContent: 'center',
+    alignContent: 'center',
+    borderWidth: 1,
+    borderColor: '#E04D0199',
+    marginTop: (10),
+    marginBottom: (15),
+    borderRadius: (8),
+  },
+  btnGreenPrint: {
+    backgroundColor: '#009640',
+    width: '100%',
+    height: (42),
+    justifyContent: 'center',
+    alignContent: 'center',
+    borderRadius: (8),
+  },
+  btnLight: {
+    backgroundColor: '#E04D011A',
+    height: (42),
+    justifyContent: 'center',
+    alignContent: 'center',
+    borderWidth: 1,
+    borderColor: '#D9DBE9',
+    width: '100%',
+    borderRadius:(8),
+  },
+  titleLight: {
+    fontFamily: GlobalStyle.fontSet.Poppins700,
+    fontSize: (16),
+    color: '#FFFFFF',
+  },
+  titleDark: {
+    color: '#E04D01',
+    fontFamily: GlobalStyle.fontSet.Poppins400,
+    fontSize:(16),
+  },
+  orderSupportBox: {
+    marginTop: (15),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
+    fontFamily: GlobalStyle.fontSet.Poppins500,
+    color: '#000',
+    fontSize: (20),
+    textAlign: 'center',
+  },
+});

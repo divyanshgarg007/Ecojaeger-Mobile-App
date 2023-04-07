@@ -1,0 +1,58 @@
+[
+    {
+      "id": 0,
+      "title": "Apple",
+      "category": "Fruits",
+      "image": "1.jpg",
+      "badge": "Seasonal",
+      "price": "CHF 116.99"
+    },
+    {
+      "id": 1,
+      "title": "Dragon Fruit",
+      "category": "Fruits",
+      "image": "require('../images/2.jpg')",
+      "badge": "New",
+      "price": "CHF 117.99"
+    },
+    {
+      "id": 3,
+      "category": "Dairy",
+      "title": "Chips",
+      "image": "require('../images/chips.jpg')",
+      "badge": "New",
+      "price": "CHF 118.99"
+    },
+    {
+      "id": 4,
+      "category": "Vegetables",
+      "title": "Sweet Corn",
+      "image": "require('../images/sweet-corn.jpg')",
+      "badge": "Seasonal",
+      "price": "CHF 119.99"
+    },
+    {
+      "id": 5,
+      "category": "Fruits",
+      "title": "Watermelon",
+      "image": "require('../images/3.jpg')",
+      "badge": "Seasonal",
+      "price": "CHF 120.99"
+    },
+    {
+      "id": 6,
+      "title": "Pears",
+      "category": "Fruits",
+      "image": "require('../images/7.jpg')",
+      "badge": "New",
+      "price": "CHF 121.99"
+    },
+    {
+      "id": 7,
+      "category": "Fruits",
+      "title": "Grapes",
+      "image": "require('../images/10.jpg')",
+      "badge": "Seasonal",
+      "price": "CHF 122.99"
+    }
+  ]
